@@ -78,4 +78,36 @@ header {
     color: white;
 }
 
+/*REGOLE NAVBAR*/ 
+
+nav {
+    margin-top: 1.1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li#selectedSection {
+    border-bottom: 3px solid #3367d6;
+    color: #3367d6;
+}
+
+/*REGOLE MAIN*/ 
+
+main {
+    margin-top: 5rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
 
