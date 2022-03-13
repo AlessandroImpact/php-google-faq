@@ -48,13 +48,15 @@ $QuestionAnswers = [
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domande Frequenti - Privacy e termini - Google</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="//ssl.gstatic.com/policies/favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -62,12 +64,16 @@ $QuestionAnswers = [
             <div class="left">
                 <div class="logo">
                     <img src="./img/logo.svg" alt="logo">
+        
                 </div>
                 <div class="privacy">Privacy e termini</div>
+                
             </div>
     
             <div class="right">
-                <div class="icon"></div>
+                <div class="icon">
+                <i class="fa-solid fa-user white"></i>
+                </div>
             </div>
         </div>
         <nav>
@@ -76,7 +82,7 @@ $QuestionAnswers = [
                 <li>Norme sulla privacy</li>
                 <li>Termini di servizio</li>
                 <li>Tecnologie</li>
-                <li id="selected">Domande frequenti</li>
+                <li id="selectedSection">Domande frequenti</li>
             </ul>
         </nav>
     </header>    
