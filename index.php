@@ -53,7 +53,7 @@ $QuestionAnswers = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Domande Frequenti - Privacy e termini - Google</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -81,7 +81,21 @@ $QuestionAnswers = [
         </nav>
     </header>    
 
-   
+    <main>
+        <div class="container">
+            <?php
+            
+                foreach($QuestionAnswers as $QuestionAnswer) {
+                    echo '<section>';
+
+                    echo '<h1>' . $QuestionAnswer['question'] . '</h1>';
+                    echo $QuestionAnswer['answer'];
+
+                    echo '</section>';
+                }
+            ?>
+        </div>
+    </main>
     
 
 </body>
