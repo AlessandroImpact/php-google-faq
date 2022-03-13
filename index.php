@@ -54,8 +54,11 @@ $QuestionAnswers = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domande Frequenti - Privacy e termini - Google</title>
+    <!--style-->
     <link rel="stylesheet" href="./style.css">
+    <!--favicon-->
     <link rel="icon" href="//ssl.gstatic.com/policies/favicon.ico" sizes="32x32">
+    <!--fontawesome-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
